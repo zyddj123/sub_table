@@ -8,3 +8,4 @@
 [2019-01-15 16:49:45] catch unhandled exception: Call to undefined method Demo1Controller::GetDB()
 [2019-01-15 16:49:46] catch unhandled exception: Call to undefined method Demo1Controller::GetDB()
 [2019-01-15 16:49:46] catch unhandled exception: Call to undefined method Demo1Controller::GetDB()
+[2019-01-15 17:07:26] catch unhandled exception: syntax error, unexpected end of file

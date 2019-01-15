@@ -187,3 +187,1730 @@ close db[mysqli:sub_table] on [root@127.0.0.1:3306]
 --------------------
 [result]
 success
+====================db log====================
+[seq]
+0.00355300 1547542578
+--------------------
+[full_sql]
+connect db[mysqli] on [root@127.0.0.1:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.01755300 1547542578
+--------------------
+[full_sql]
+select db[mysqli] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.01855300 1547542578
+--------------------
+[full_sql]
+close db[mysqli:sub_table] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.76755300 1547542859
+--------------------
+[full_sql]
+connect db[mysqli] on [root@127.0.0.1:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.78055300 1547542859
+--------------------
+[full_sql]
+select db[mysqli] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.78155300 1547542859
+--------------------
+[full_sql]
+close db[mysqli:sub_table] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.72255300 1547543152
+--------------------
+[full_sql]
+connect db[mysqli] on [root@127.0.0.1:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.72755300 1547543152
+--------------------
+[full_sql]
+select db[mysqli] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.72755300 1547543152
+--------------------
+[unmixed_query]
+show tables like 'data2019-01'
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+show tables like 'data2019-01'
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [Tables_in_sub_table (data2019-01)] => data2019-01
+        )
+
+)
+
+====================db log====================
+[seq]
+0.76455300 1547543152
+--------------------
+[full_sql]
+close db[mysqli:sub_table] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.97455300 1547543169
+--------------------
+[full_sql]
+connect db[mysqli] on [root@127.0.0.1:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.98655300 1547543169
+--------------------
+[full_sql]
+select db[mysqli] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.98755300 1547543169
+--------------------
+[unmixed_query]
+show tables like 'data'
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+show tables like 'data'
+--------------------
+[result]
+
+====================db log====================
+[seq]
+0.98955300 1547543169
+--------------------
+[full_sql]
+close db[mysqli:sub_table] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.30755300 1547543171
+--------------------
+[full_sql]
+connect db[mysqli] on [root@127.0.0.1:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.31455300 1547543171
+--------------------
+[full_sql]
+select db[mysqli] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.31455300 1547543171
+--------------------
+[unmixed_query]
+show tables like 'data'
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+show tables like 'data'
+--------------------
+[result]
+
+====================db log====================
+[seq]
+0.31655300 1547543171
+--------------------
+[full_sql]
+close db[mysqli:sub_table] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.84455300 1547543171
+--------------------
+[full_sql]
+connect db[mysqli] on [root@127.0.0.1:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.85055300 1547543171
+--------------------
+[full_sql]
+select db[mysqli] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.85055300 1547543171
+--------------------
+[unmixed_query]
+show tables like 'data'
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+show tables like 'data'
+--------------------
+[result]
+
+====================db log====================
+[seq]
+0.85155300 1547543171
+--------------------
+[full_sql]
+close db[mysqli:sub_table] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.21355300 1547543172
+--------------------
+[full_sql]
+connect db[mysqli] on [root@127.0.0.1:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.22155300 1547543172
+--------------------
+[full_sql]
+select db[mysqli] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.22255300 1547543172
+--------------------
+[unmixed_query]
+show tables like 'data'
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+show tables like 'data'
+--------------------
+[result]
+
+====================db log====================
+[seq]
+0.22355300 1547543172
+--------------------
+[full_sql]
+close db[mysqli:sub_table] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.86055300 1547543174
+--------------------
+[full_sql]
+connect db[mysqli] on [root@127.0.0.1:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.86755300 1547543174
+--------------------
+[full_sql]
+select db[mysqli] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.86855300 1547543174
+--------------------
+[unmixed_query]
+show tables like 'data2019-01'
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+show tables like 'data2019-01'
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [Tables_in_sub_table (data2019-01)] => data2019-01
+        )
+
+)
+
+====================db log====================
+[seq]
+0.87255300 1547543174
+--------------------
+[full_sql]
+close db[mysqli:sub_table] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.71155300 1547543234
+--------------------
+[full_sql]
+connect db[mysqli] on [root@127.0.0.1:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.72555300 1547543234
+--------------------
+[full_sql]
+select db[mysqli] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.72655300 1547543234
+--------------------
+[unmixed_query]
+show tables like 'data'.2019-01.
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+show tables like 'data'.2019-01.
+--------------------
+[error]
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.2019-01.' at line 1
+====================db log====================
+[seq]
+0.72855300 1547543234
+--------------------
+[full_sql]
+close db[mysqli:sub_table] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.98755300 1547543253
+--------------------
+[full_sql]
+connect db[mysqli] on [root@127.0.0.1:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.00355300 1547543254
+--------------------
+[full_sql]
+select db[mysqli] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.00455300 1547543254
+--------------------
+[unmixed_query]
+show tables like 'data'2019-01
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+show tables like 'data'2019-01
+--------------------
+[error]
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '2019-01' at line 1
+====================db log====================
+[seq]
+0.00555300 1547543254
+--------------------
+[full_sql]
+close db[mysqli:sub_table] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.75855300 1547543271
+--------------------
+[full_sql]
+connect db[mysqli] on [root@127.0.0.1:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.77255300 1547543271
+--------------------
+[full_sql]
+select db[mysqli] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.77255300 1547543271
+--------------------
+[unmixed_query]
+show tables like 'data2019-01'
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+show tables like 'data2019-01'
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [Tables_in_sub_table (data2019-01)] => data2019-01
+        )
+
+)
+
+====================db log====================
+[seq]
+0.77455300 1547543271
+--------------------
+[full_sql]
+close db[mysqli:sub_table] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.66955300 1547543351
+--------------------
+[full_sql]
+connect db[mysqli] on [root@127.0.0.1:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.68155300 1547543351
+--------------------
+[full_sql]
+select db[mysqli] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.68255300 1547543351
+--------------------
+[unmixed_query]
+show tables like 'data2019-01'
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+show tables like 'data2019-01'
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [Tables_in_sub_table (data2019-01)] => data2019-01
+        )
+
+)
+
+====================db log====================
+[seq]
+0.68455300 1547543351
+--------------------
+[full_sql]
+close db[mysqli:sub_table] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.23955300 1547543352
+--------------------
+[full_sql]
+connect db[mysqli] on [root@127.0.0.1:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.25555300 1547543352
+--------------------
+[full_sql]
+select db[mysqli] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.25655300 1547543352
+--------------------
+[unmixed_query]
+show tables like 'data2019-01'
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+show tables like 'data2019-01'
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [Tables_in_sub_table (data2019-01)] => data2019-01
+        )
+
+)
+
+====================db log====================
+[seq]
+0.25855300 1547543352
+--------------------
+[full_sql]
+close db[mysqli:sub_table] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.84455300 1547543352
+--------------------
+[full_sql]
+connect db[mysqli] on [root@127.0.0.1:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.86155300 1547543352
+--------------------
+[full_sql]
+select db[mysqli] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.86155300 1547543352
+--------------------
+[unmixed_query]
+show tables like 'data2019-01'
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+show tables like 'data2019-01'
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [Tables_in_sub_table (data2019-01)] => data2019-01
+        )
+
+)
+
+====================db log====================
+[seq]
+0.86255300 1547543352
+--------------------
+[full_sql]
+close db[mysqli:sub_table] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.35855300 1547543353
+--------------------
+[full_sql]
+connect db[mysqli] on [root@127.0.0.1:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.37055300 1547543353
+--------------------
+[full_sql]
+select db[mysqli] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.37155300 1547543353
+--------------------
+[unmixed_query]
+show tables like 'data2019-01'
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+show tables like 'data2019-01'
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [Tables_in_sub_table (data2019-01)] => data2019-01
+        )
+
+)
+
+====================db log====================
+[seq]
+0.37355300 1547543353
+--------------------
+[full_sql]
+close db[mysqli:sub_table] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.06055300 1547543421
+--------------------
+[full_sql]
+connect db[mysqli] on [root@127.0.0.1:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.07255300 1547543421
+--------------------
+[full_sql]
+select db[mysqli] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.07355300 1547543421
+--------------------
+[unmixed_query]
+show tables like 'data2019-01'
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+show tables like 'data2019-01'
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [Tables_in_sub_table (data2019-01)] => data2019-01
+        )
+
+)
+
+====================db log====================
+[seq]
+0.07555300 1547543421
+--------------------
+[unmixed_query]
+INSERT INTO `data2019-01` (`name`, `visit_time`) VALUES (? ,? )
+--------------------
+[unmixed_params]
+Array
+(
+    [0] => zhangsan
+    [1] => 2019-01-15
+)
+
+--------------------
+[full_sql]
+INSERT INTO `data2019-01` (`name`, `visit_time`) VALUES ('zhangsan' ,'2019-01-15' )
+--------------------
+[result]
+1
+====================db log====================
+[seq]
+0.09655300 1547543421
+--------------------
+[full_sql]
+close db[mysqli:sub_table] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.00555300 1547543470
+--------------------
+[full_sql]
+connect db[mysqli] on [root@127.0.0.1:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.01755300 1547543470
+--------------------
+[full_sql]
+select db[mysqli] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.01855300 1547543470
+--------------------
+[unmixed_query]
+show tables like 'data2019-01'
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+show tables like 'data2019-01'
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [Tables_in_sub_table (data2019-01)] => data2019-01
+        )
+
+)
+
+====================db log====================
+[seq]
+0.02055300 1547543470
+--------------------
+[unmixed_query]
+INSERT INTO `data2019-01` (`name`, `visit_time`) VALUES (? ,? )
+--------------------
+[unmixed_params]
+Array
+(
+    [0] => zhangsan
+    [1] => 2019-01-15
+)
+
+--------------------
+[full_sql]
+INSERT INTO `data2019-01` (`name`, `visit_time`) VALUES ('zhangsan' ,'2019-01-15' )
+--------------------
+[result]
+1
+====================db log====================
+[seq]
+0.04955300 1547543470
+--------------------
+[full_sql]
+close db[mysqli:sub_table] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.56655300 1547543470
+--------------------
+[full_sql]
+connect db[mysqli] on [root@127.0.0.1:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.57055300 1547543470
+--------------------
+[full_sql]
+select db[mysqli] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.57055300 1547543470
+--------------------
+[unmixed_query]
+show tables like 'data2019-01'
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+show tables like 'data2019-01'
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [Tables_in_sub_table (data2019-01)] => data2019-01
+        )
+
+)
+
+====================db log====================
+[seq]
+0.57255300 1547543470
+--------------------
+[unmixed_query]
+INSERT INTO `data2019-01` (`name`, `visit_time`) VALUES (? ,? )
+--------------------
+[unmixed_params]
+Array
+(
+    [0] => zhangsan
+    [1] => 2019-01-15
+)
+
+--------------------
+[full_sql]
+INSERT INTO `data2019-01` (`name`, `visit_time`) VALUES ('zhangsan' ,'2019-01-15' )
+--------------------
+[result]
+1
+====================db log====================
+[seq]
+0.57855300 1547543470
+--------------------
+[full_sql]
+close db[mysqli:sub_table] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.97255300 1547543470
+--------------------
+[full_sql]
+connect db[mysqli] on [root@127.0.0.1:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.98055300 1547543470
+--------------------
+[full_sql]
+select db[mysqli] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.98155300 1547543470
+--------------------
+[unmixed_query]
+show tables like 'data2019-01'
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+show tables like 'data2019-01'
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [Tables_in_sub_table (data2019-01)] => data2019-01
+        )
+
+)
+
+====================db log====================
+[seq]
+0.98255300 1547543470
+--------------------
+[unmixed_query]
+INSERT INTO `data2019-01` (`name`, `visit_time`) VALUES (? ,? )
+--------------------
+[unmixed_params]
+Array
+(
+    [0] => zhangsan
+    [1] => 2019-01-15
+)
+
+--------------------
+[full_sql]
+INSERT INTO `data2019-01` (`name`, `visit_time`) VALUES ('zhangsan' ,'2019-01-15' )
+--------------------
+[result]
+1
+====================db log====================
+[seq]
+0.98755300 1547543470
+--------------------
+[full_sql]
+close db[mysqli:sub_table] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.17455300 1547543471
+--------------------
+[full_sql]
+connect db[mysqli] on [root@127.0.0.1:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.19155300 1547543471
+--------------------
+[full_sql]
+select db[mysqli] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.19255300 1547543471
+--------------------
+[unmixed_query]
+show tables like 'data2019-01'
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+show tables like 'data2019-01'
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [Tables_in_sub_table (data2019-01)] => data2019-01
+        )
+
+)
+
+====================db log====================
+[seq]
+0.19355300 1547543471
+--------------------
+[unmixed_query]
+INSERT INTO `data2019-01` (`name`, `visit_time`) VALUES (? ,? )
+--------------------
+[unmixed_params]
+Array
+(
+    [0] => zhangsan
+    [1] => 2019-01-15
+)
+
+--------------------
+[full_sql]
+INSERT INTO `data2019-01` (`name`, `visit_time`) VALUES ('zhangsan' ,'2019-01-15' )
+--------------------
+[result]
+1
+====================db log====================
+[seq]
+0.19855300 1547543471
+--------------------
+[full_sql]
+close db[mysqli:sub_table] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.38155300 1547543471
+--------------------
+[full_sql]
+connect db[mysqli] on [root@127.0.0.1:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.39255300 1547543471
+--------------------
+[full_sql]
+select db[mysqli] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.39255300 1547543471
+--------------------
+[unmixed_query]
+show tables like 'data2019-01'
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+show tables like 'data2019-01'
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [Tables_in_sub_table (data2019-01)] => data2019-01
+        )
+
+)
+
+====================db log====================
+[seq]
+0.39455300 1547543471
+--------------------
+[unmixed_query]
+INSERT INTO `data2019-01` (`name`, `visit_time`) VALUES (? ,? )
+--------------------
+[unmixed_params]
+Array
+(
+    [0] => zhangsan
+    [1] => 2019-01-15
+)
+
+--------------------
+[full_sql]
+INSERT INTO `data2019-01` (`name`, `visit_time`) VALUES ('zhangsan' ,'2019-01-15' )
+--------------------
+[result]
+1
+====================db log====================
+[seq]
+0.39955300 1547543471
+--------------------
+[full_sql]
+close db[mysqli:sub_table] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.54055300 1547543471
+--------------------
+[full_sql]
+connect db[mysqli] on [root@127.0.0.1:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.55255300 1547543471
+--------------------
+[full_sql]
+select db[mysqli] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.55355300 1547543471
+--------------------
+[unmixed_query]
+show tables like 'data2019-01'
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+show tables like 'data2019-01'
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [Tables_in_sub_table (data2019-01)] => data2019-01
+        )
+
+)
+
+====================db log====================
+[seq]
+0.55455300 1547543471
+--------------------
+[unmixed_query]
+INSERT INTO `data2019-01` (`name`, `visit_time`) VALUES (? ,? )
+--------------------
+[unmixed_params]
+Array
+(
+    [0] => zhangsan
+    [1] => 2019-01-15
+)
+
+--------------------
+[full_sql]
+INSERT INTO `data2019-01` (`name`, `visit_time`) VALUES ('zhangsan' ,'2019-01-15' )
+--------------------
+[result]
+1
+====================db log====================
+[seq]
+0.55955300 1547543471
+--------------------
+[full_sql]
+close db[mysqli:sub_table] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.72555300 1547543471
+--------------------
+[full_sql]
+connect db[mysqli] on [root@127.0.0.1:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.73355300 1547543471
+--------------------
+[full_sql]
+select db[mysqli] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.73355300 1547543471
+--------------------
+[unmixed_query]
+show tables like 'data2019-01'
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+show tables like 'data2019-01'
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [Tables_in_sub_table (data2019-01)] => data2019-01
+        )
+
+)
+
+====================db log====================
+[seq]
+0.73555300 1547543471
+--------------------
+[unmixed_query]
+INSERT INTO `data2019-01` (`name`, `visit_time`) VALUES (? ,? )
+--------------------
+[unmixed_params]
+Array
+(
+    [0] => zhangsan
+    [1] => 2019-01-15
+)
+
+--------------------
+[full_sql]
+INSERT INTO `data2019-01` (`name`, `visit_time`) VALUES ('zhangsan' ,'2019-01-15' )
+--------------------
+[result]
+1
+====================db log====================
+[seq]
+0.74055300 1547543471
+--------------------
+[full_sql]
+close db[mysqli:sub_table] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.88555300 1547543471
+--------------------
+[full_sql]
+connect db[mysqli] on [root@127.0.0.1:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.89755300 1547543471
+--------------------
+[full_sql]
+select db[mysqli] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.89855300 1547543471
+--------------------
+[unmixed_query]
+show tables like 'data2019-01'
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+show tables like 'data2019-01'
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [Tables_in_sub_table (data2019-01)] => data2019-01
+        )
+
+)
+
+====================db log====================
+[seq]
+0.90055300 1547543471
+--------------------
+[unmixed_query]
+INSERT INTO `data2019-01` (`name`, `visit_time`) VALUES (? ,? )
+--------------------
+[unmixed_params]
+Array
+(
+    [0] => zhangsan
+    [1] => 2019-01-15
+)
+
+--------------------
+[full_sql]
+INSERT INTO `data2019-01` (`name`, `visit_time`) VALUES ('zhangsan' ,'2019-01-15' )
+--------------------
+[result]
+1
+====================db log====================
+[seq]
+0.90555300 1547543471
+--------------------
+[full_sql]
+close db[mysqli:sub_table] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.05555300 1547543472
+--------------------
+[full_sql]
+connect db[mysqli] on [root@127.0.0.1:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.06755300 1547543472
+--------------------
+[full_sql]
+select db[mysqli] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.06855300 1547543472
+--------------------
+[unmixed_query]
+show tables like 'data2019-01'
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+show tables like 'data2019-01'
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [Tables_in_sub_table (data2019-01)] => data2019-01
+        )
+
+)
+
+====================db log====================
+[seq]
+0.06955300 1547543472
+--------------------
+[unmixed_query]
+INSERT INTO `data2019-01` (`name`, `visit_time`) VALUES (? ,? )
+--------------------
+[unmixed_params]
+Array
+(
+    [0] => zhangsan
+    [1] => 2019-01-15
+)
+
+--------------------
+[full_sql]
+INSERT INTO `data2019-01` (`name`, `visit_time`) VALUES ('zhangsan' ,'2019-01-15' )
+--------------------
+[result]
+1
+====================db log====================
+[seq]
+0.07455300 1547543472
+--------------------
+[full_sql]
+close db[mysqli:sub_table] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.21355300 1547543472
+--------------------
+[full_sql]
+connect db[mysqli] on [root@127.0.0.1:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.22155300 1547543472
+--------------------
+[full_sql]
+select db[mysqli] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.22155300 1547543472
+--------------------
+[unmixed_query]
+show tables like 'data2019-01'
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+show tables like 'data2019-01'
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [Tables_in_sub_table (data2019-01)] => data2019-01
+        )
+
+)
+
+====================db log====================
+[seq]
+0.22355300 1547543472
+--------------------
+[unmixed_query]
+INSERT INTO `data2019-01` (`name`, `visit_time`) VALUES (? ,? )
+--------------------
+[unmixed_params]
+Array
+(
+    [0] => zhangsan
+    [1] => 2019-01-15
+)
+
+--------------------
+[full_sql]
+INSERT INTO `data2019-01` (`name`, `visit_time`) VALUES ('zhangsan' ,'2019-01-15' )
+--------------------
+[result]
+1
+====================db log====================
+[seq]
+0.23155300 1547543472
+--------------------
+[full_sql]
+close db[mysqli:sub_table] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.36155300 1547543716
+--------------------
+[full_sql]
+connect db[mysqli] on [root@127.0.0.1:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.37255300 1547543716
+--------------------
+[full_sql]
+select db[mysqli] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.37355300 1547543716
+--------------------
+[full_sql]
+close db[mysqli:sub_table] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.02855300 1547545216
+--------------------
+[full_sql]
+connect db[mysqli] on [root@127.0.0.1:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.04055300 1547545216
+--------------------
+[full_sql]
+select db[mysqli] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.04155300 1547545216
+--------------------
+[unmixed_query]
+select * from `data2018-12` WHERE visit_time BETWEEN "2018-12-10" AND "2019-01-20" UNION select * from `data2019-01` WHERE visit_time BETWEEN "2018-12-10" AND "2019-01-20"
+--------------------
+[unmixed_params]
+Array
+(
+)
+
+--------------------
+[full_sql]
+select * from `data2018-12` WHERE visit_time BETWEEN "2018-12-10" AND "2019-01-20" UNION select * from `data2019-01` WHERE visit_time BETWEEN "2018-12-10" AND "2019-01-20"
+--------------------
+[result]
+Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => zhangsan
+            [visit_time] => 2018-12-12
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => zhangsan
+            [visit_time] => 2018-12-13
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => zhangsan
+            [visit_time] => 2018-12-14
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => zhangsan
+            [visit_time] => 2018-12-15
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => zhangsan
+            [visit_time] => 2018-12-16
+        )
+
+    [5] => Array
+        (
+            [id] => 6
+            [name] => zhangsan
+            [visit_time] => 2018-12-17
+        )
+
+    [6] => Array
+        (
+            [id] => 7
+            [name] => zhangsan
+            [visit_time] => 2018-12-18
+        )
+
+    [7] => Array
+        (
+            [id] => 8
+            [name] => zhangsan
+            [visit_time] => 2018-12-19
+        )
+
+    [8] => Array
+        (
+            [id] => 9
+            [name] => zhangsan
+            [visit_time] => 2018-12-20
+        )
+
+    [9] => Array
+        (
+            [id] => 10
+            [name] => zhangsan
+            [visit_time] => 2018-12-21
+        )
+
+    [10] => Array
+        (
+            [id] => 11
+            [name] => zhangsan
+            [visit_time] => 2018-12-22
+        )
+
+    [11] => Array
+        (
+            [id] => 1
+            [name] => zhangsan
+            [visit_time] => 2019-01-07
+        )
+
+    [12] => Array
+        (
+            [id] => 2
+            [name] => zhangsan
+            [visit_time] => 2019-01-08
+        )
+
+    [13] => Array
+        (
+            [id] => 3
+            [name] => zhangsan
+            [visit_time] => 2019-01-09
+        )
+
+    [14] => Array
+        (
+            [id] => 4
+            [name] => zhangsan
+            [visit_time] => 2019-01-10
+        )
+
+    [15] => Array
+        (
+            [id] => 5
+            [name] => zhangsan
+            [visit_time] => 2019-01-11
+        )
+
+    [16] => Array
+        (
+            [id] => 6
+            [name] => zhangsan
+            [visit_time] => 2019-01-12
+        )
+
+    [17] => Array
+        (
+            [id] => 7
+            [name] => zhangsan
+            [visit_time] => 2019-01-13
+        )
+
+    [18] => Array
+        (
+            [id] => 8
+            [name] => zhangsan
+            [visit_time] => 2019-01-13
+        )
+
+    [19] => Array
+        (
+            [id] => 9
+            [name] => zhangsan
+            [visit_time] => 2019-01-13
+        )
+
+    [20] => Array
+        (
+            [id] => 10
+            [name] => zhangsan
+            [visit_time] => 2019-01-14
+        )
+
+    [21] => Array
+        (
+            [id] => 11
+            [name] => zhangsan
+            [visit_time] => 2019-01-15
+        )
+
+)
+
+====================db log====================
+[seq]
+0.04555300 1547545216
+--------------------
+[full_sql]
+close db[mysqli:sub_table] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
