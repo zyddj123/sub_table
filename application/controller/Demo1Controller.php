@@ -7,8 +7,7 @@ if (!defined('BASECHECK')){
 }
 
 /**
- * 演示Demo Lesson 1，包括：
- * 分表 插入、查询 数据
+ * 按月份 分表 插入、查询 数据
  * 
  * @package		comnide
  * @author			B.I.T
