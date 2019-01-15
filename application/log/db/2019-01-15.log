@@ -1,0 +1,189 @@
+====================db log====================
+[seq]
+0.97355300 1547542230
+--------------------
+[full_sql]
+connect db[mysqli] on [root@127.0.0.1:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.04455300 1547542231
+--------------------
+[full_sql]
+select db[mysqli] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.04555300 1547542231
+--------------------
+[full_sql]
+close db[mysqli:sub_table] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.90355300 1547542290
+--------------------
+[full_sql]
+connect db[mysqli] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.00055300 1547542292
+--------------------
+[full_sql]
+select db[mysqli] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.00155300 1547542292
+--------------------
+[full_sql]
+close db[mysqli:sub_table] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.00955300 1547542292
+--------------------
+[full_sql]
+connect db[mysqli] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.03155300 1547542293
+--------------------
+[full_sql]
+select db[mysqli] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.03255300 1547542293
+--------------------
+[full_sql]
+close db[mysqli:sub_table] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.94055300 1547542293
+--------------------
+[full_sql]
+connect db[mysqli] on [root@localhost:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.96455300 1547542294
+--------------------
+[full_sql]
+select db[mysqli] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.96555300 1547542294
+--------------------
+[full_sql]
+close db[mysqli:sub_table] on [root@localhost:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.01755300 1547542302
+--------------------
+[full_sql]
+connect db[mysqli] on [root@127.0.0.1:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.02955300 1547542302
+--------------------
+[full_sql]
+select db[mysqli] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.02955300 1547542302
+--------------------
+[full_sql]
+close db[mysqli:sub_table] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.10055300 1547542403
+--------------------
+[full_sql]
+connect db[mysqli] on [root@127.0.0.1:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.11255300 1547542403
+--------------------
+[full_sql]
+select db[mysqli] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.11955300 1547542403
+--------------------
+[full_sql]
+close db[mysqli:sub_table] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.40955300 1547542404
+--------------------
+[full_sql]
+connect db[mysqli] on [root@127.0.0.1:3306] with password
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.41655300 1547542404
+--------------------
+[full_sql]
+select db[mysqli] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
+====================db log====================
+[seq]
+0.41855300 1547542404
+--------------------
+[full_sql]
+close db[mysqli:sub_table] on [root@127.0.0.1:3306]
+--------------------
+[result]
+success
