@@ -1,4 +1,5 @@
 /cache
 /log
 /.vscode
+/application/log
 db_config.php
