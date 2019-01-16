@@ -33,8 +33,8 @@ class Demo1Controller extends Controller{
 		$month = date("Y-m");
 		// $month = "2019-01";
 		$table = 'data'.$month;
+		// var_dump(strtotime("2019-01-15"));die;
 		$data = array('name'=>'zhangsan','visit_time'=>date('Y-m-d'));
-		// $data = array('name'=>'zhangsan','visit_time'=>$month."-03");
 		$flag = $this->db->query("show tables like '{$table}'");
 		// var_dump($flag);
 		if($flag){
@@ -47,7 +47,7 @@ class Demo1Controller extends Controller{
 					`name` varchar(255) NOT NULL,
 					`visit_time` date NOT NULL,
 					PRIMARY KEY (`id`)
-					) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;";
+					) ENGINE=InnoDB AUTO_INCREMENT=201901151 DEFAULT CHARSET=utf8;";
 			$sta = $this->db->query($sql);
 			var_dump($sta);
 		}
@@ -70,9 +70,9 @@ class Demo1Controller extends Controller{
 
 			//采用union联合查询查询数据  判断是否是查询第一个月份数组数据
 			if($sql==""){
-				$sql .= "select * from `".$prefix.$value."` WHERE `visit_time` BETWEEN '{$t_start}' AND '{$t_end}' ";	
+				$sql .= "select name, visit_time from `".$prefix.$value."` WHERE `visit_time` BETWEEN '{$t_start}' AND '{$t_end}' ";	
 			}else{
-				$sql .= " UNION select * from `".$prefix.$value."` WHERE `visit_time` BETWEEN '{$t_start}' AND '{$t_end}' ";
+				$sql .= " UNION ALL select name, visit_time from `".$prefix.$value."` WHERE `visit_time` BETWEEN '{$t_start}' AND '{$t_end}' ";
 			}
 		}
 
